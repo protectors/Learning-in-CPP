@@ -34,3 +34,4 @@
 .DS_Store
 *.xcodeproj
 **/build/
+.vscode/
