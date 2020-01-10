@@ -27,9 +27,9 @@ int main(){
 	cout<<"Was asking $"<<a_price<<endl;
 	cout<<"Now asking $"<<d_price<<endl;
 
-	// outFile<<fixed;
-	// outFile.precision(2);
-	// outFile.setf(ios_base::showpoint);
+	outFile<<fixed;
+	outFile.precision(2);
+	outFile.setf(ios_base::showpoint);
 	outFile<<"Make and model: "<<automobile<<endl;
 	outFile<<"Year: "<<year<<endl;
 	outFile<<"Was asking $"<<a_price<<endl;
