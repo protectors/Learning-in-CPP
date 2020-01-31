@@ -76,7 +76,7 @@ void Stock::show() const{
 }
 
 const Stock & Stock::topval(const Stock & s) const{
-	if(s.total_val_val>total_val)
+	if(s.total_val>total_val)
 		return s;
 	else
 		return *this;
